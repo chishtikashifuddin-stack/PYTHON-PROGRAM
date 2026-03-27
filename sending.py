@@ -14,5 +14,5 @@ def fun():
             os.popen(f"echo {e} >> DB.txt")
             os.popen(f"echo {e} >> data_base.txt")
         else:
-            print(f"Already sent: {i}")
+            print(f"Already sent this message: {i}")
 fun()
