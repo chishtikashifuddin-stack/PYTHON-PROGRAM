@@ -1,0 +1,8 @@
+a = input("what is your name:")
+b = input("what is your education:")
+c = input("experiece:")
+d = input("what is salary expectation :")
+print ("my name is :" + str(a))
+print ("i have completed my education from:" +str(b))
+print ("i have experiece:" + str(c))
+print ("i want salary:" + str(d))

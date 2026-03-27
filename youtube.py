@@ -1,0 +1,3 @@
+import pywhatkit
+a = input()
+pywhatkit.playonyt(a)

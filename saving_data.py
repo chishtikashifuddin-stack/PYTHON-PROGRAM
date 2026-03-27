@@ -1,0 +1,14 @@
+import os
+a = input("Enter numbers: ")
+message = input("Enter Message: ")
+a = a.replace(" ", ",")
+c = a.split(",")
+b = os.popen("type DB.txt").read()
+for number in c:
+    if len(number) == 10 and number.isdigit():
+        x =(f"{number},{message}")
+        print(f"Save data succefully number and message")
+        os.popen(f"echo {x} > DB.txt")
+   else:
+        print(f"Invalid number: {number}")  
+    
